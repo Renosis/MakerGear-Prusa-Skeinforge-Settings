@@ -1,0 +1,5 @@
+These are my Skeinforge Settings that I use on my MakerGear Prusa. I will only upload modified settings that are confirmed to improve my prints. I have posted these in order to make it easier for the next guy.
+
+To install, copy the folder dot.skeinforge over into your "users" folder and remove the first three letters from the folder name. So, it should be located in your users folder and be called ".skeinforge"
+
+Enjoy!

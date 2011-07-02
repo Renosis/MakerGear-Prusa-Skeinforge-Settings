@@ -2,9 +2,9 @@ Format is tab separated skeinforge craft settings.
 _Name                          	Value
 WindowPosition	600+0
 Open File for Craft	
-bottom	True
+bottom	False
 carve	False
-chamber	False
+chamber	True
 chop	False
 cleave	False
 clip	False

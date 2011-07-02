@@ -1,4 +1,4 @@
-Updated: As of Friday July 1st, 9:36 PM EST.
+Updated: As of Friday July 1st, 9:36 PM EST. -- Added sprinter firmware configuration to repository. Located in Kliment-Sprinter folder. This contains all the files you need to upload the firmware sprinter with proper settings for a Hybrid MakerGear Prusa.
 
 These are my Skeinforge Settings that I use on my MakerGear Prusa. I will only upload modified settings that are confirmed to improve my prints. I have posted these in order to make it easier for the next guy.
 

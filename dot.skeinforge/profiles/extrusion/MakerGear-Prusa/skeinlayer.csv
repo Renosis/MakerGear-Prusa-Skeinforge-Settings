@@ -13,7 +13,7 @@ Layer Extra Span (integer):	0
 Line (index):	276
 Display Line	True
 View Move	False
-Scale (pixels per millimeter):	15.0
+Scale (pixels per millimeter):	10.0
 Screen Horizontal Inset (pixels):	100
 Screen Vertical Inset (pixels):	220
 Show Gcode	True

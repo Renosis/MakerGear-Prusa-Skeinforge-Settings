@@ -36,9 +36,9 @@ skirt	False
 speed	False
 splodge	False
 stretch	False
-temperature	True
+temperature	False
 tower	False
 unpause	False
 whittle	False
 widen	False
-wipe	False
+wipe	True

@@ -86,10 +86,10 @@ float min_constant_speed_units = 2; // the minimum units of an accelerated move 
 // units are in millimeters or whatever length unit you prefer: inches,football-fields,parsecs etc
 
 //Calibration variables
-float x_steps_per_unit = 104.987;
-float y_steps_per_unit = 104.987;
+float x_steps_per_unit = 104.449;//104.987
+float y_steps_per_unit = 107.479;//104.987
 float z_steps_per_unit = 2272.7272;
-float e_steps_per_unit = 1606;
+float e_steps_per_unit = 1487;
 float max_feedrate = 200000; //mmm, acceleration!
 float max_z_feedrate = 120;
 

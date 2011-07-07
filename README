@@ -1,11 +1,20 @@
-Updated: As of Friday July 1st, 9:36 PM EST. -- Added sprinter firmware configuration to repository. Located in Kliment-Sprinter folder. This contains all the files you need to upload the firmware sprinter with proper settings for a Hybrid MakerGear Prusa.
+Big Update Today! July 6th, 2011.
 
-These are my Skeinforge Settings that I use on my MakerGear Prusa. I will only upload modified settings that are confirmed to improve my prints. I have posted these in order to make it easier for the next guy.
+I did a major overhaul on my Skeinforge 41 profile. I finally feel like I have a full understanding of SF 41. This profile should get you to a good starting point too. There are a few things you must do to get it to work though.Before we begin, You may want to backup your old .skeinforge folder by renaming it "backup.skeinforge"!
 
-To install, copy the folder dot.skeinforge over into your "users" folder and remove the first three letters from the folder name. So, it should be located in your users folder and be called ".skeinforge".
+First you need to copy the dot.skeinforge folder over into your user folder. For windows users, it should be "C:\users\<your username>\" Then you need to remove the word "dot" from the beginning of it, by renaming it. For linux users, it should be
+/home/.skeinforge. 
+Ok, now open skeinforge, make sure under profiles, 7-5-11-SF41-Test is selected. If you don't see that option under profiles, double check you copied everything correctly.
 
-When you run skeinforge.py, the profile MakerGear-Prusa should be selected, but if it is not, please double check that you copied the .skeinforge file over to the correct place (your user folder). 
+Next, you need to verify that your printer pulls 100mm of filament, when you tell it to pull 100mm filament. You need to use pronterface or repsnapper, and specify length 100 for extruder, then measure and make sure it is exactly 100mm. 
+If it isn't, you need to adjust your e_steps_per_unit in your firmware until it does pull 100mm of filament when you tell it to pull 100mm. Then you need to measure your filament diameter and modify that setting under "dimension" in skeinforge. 
 
-Enjoy!
+Filament density should remain 1.0!  Unless you CHANGE the type of plastic you are extruding. So, say you calibrated your e_steps_per_unit in firmware with ABS filament.... then when you have ABS filament in your packing density needs to be 1.0. The only reason to change density, is if you are using a different plastic (say PLA) then the plastic you used to calibrate with.
 
--Renosis
+
+With these settings correct, you should now have a pretty nice profile to get started with.  If you find your plastic to be a tiny bit sparse or too much, tweak filament diameter a tiny amount. If it is off by alot, you need to double check your measurements (make sure you pull 100mm when you ask your extruder to pull 100mm and double check filament diameter).
+
+Happy Printing!
+
+--Renosis
+ 

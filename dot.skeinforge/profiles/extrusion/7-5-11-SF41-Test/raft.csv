@@ -24,7 +24,7 @@ Object First Layer Feed Rate Infill Multiplier (ratio):	0.4
 Object First Layer Feed Rate Perimeter Multiplier (ratio):	0.35
 Object First Layer Flow Rate Infill Multiplier (ratio):	0.4
 Object First Layer Flow Rate Perimeter Multiplier (ratio):	0.4
-Operating Nozzle Lift over Layer Thickness (ratio):	1.0
+Operating Nozzle Lift over Layer Thickness (ratio):	0.5
 Raft Additional Margin over Length (%):	1.0
 Raft Margin (mm):	3.0
 Support Cross Hatch	False

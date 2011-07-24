@@ -1,14 +1,24 @@
+Current as of July 24, 2011!
 
-Big Update Today! July 7th, 2011.
+I have done much tweaking to my profile and neglecting my GitHub Repository. So here is the current updated version. I am getting very good prints with these settings. I usually end up taking pictures of them. You can check them out here:
 
-I did a major overhaul on my Skeinforge 41 profile. I finally feel like I have a full understanding of SF 41. This profile should get you to a good starting point too. There are a few things you must do to get it to work though.Before we begin, You may want to backup your old .skeinforge folder by renaming it "backup.skeinforge"!
+http://www.flickr.com/photos/58101887@N02/
 
-First you need to copy the dot.skeinforge folder over into your user folder. For windows users, it should be "C:\users\<your username>\" Then you need to remove the word "dot" from the beginning of it, by renaming it. For linux users, it should be
-/home/.skeinforge. 
-Ok, now open skeinforge, make sure under profiles, 7-5-11-SF41-Test is selected. If you don't see that option under profiles, double check you copied everything correctly.
+Current working profile for me is: 7-24-11-SF-41-.28-45
+
+So, I recommend using this profile. BTW, 7-24-11 obviously refers to the date, SF for skeinforge (which I should probably leave out, because that is obvious), 41 is the SF version number, .28 is the layerheight, 45 is the feedrate.
+
+This profile should get you to a good starting point too. There are a few things you must do to get it to work though. Before we begin, You may want to backup your old .skeinforge folder by renaming it "backup.skeinforge"!
+
+First you need to copy the dot.skeinforge folder over into your user folder. For windows users, it should be "C:\users\<your username>\" Then you need to remove the word "dot" from the beginning of it, by renaming it. For linux users, it should be /home/.skeinforge. 
+
+Ok, now open skeinforge, make sure under profiles, 7-24-11-SF-41-.28-45 is selected. If you don't see that option under profiles, double check you copied everything correctly.
 
 Next, you need to verify that your printer pulls 100mm of filament, when you tell it to pull 100mm filament. You need to use pronterface or repsnapper, and specify length 100 for extruder, then measure and make sure it is exactly 100mm. 
-If it isn't, you need to adjust your e_steps_per_unit in your firmware until it does pull 100mm of filament when you tell it to pull 100mm. Then you need to measure your filament diameter and modify that setting under "dimension" in skeinforge. 
+If it isn't, you need to adjust your e_steps_per_unit in your firmware until it does pull 100mm of filament when you tell it to pull 100mm. I have a guide for doing this at: http://www.renosis.net/Skeinforge-41-guide.html. But i should warn you that the rest of the guide is far from complete, so if you follow it and reach the end, don't assume you are all finished with Skeinforge Calibration! :]
+
+Next, you need to measure your filament diameter and modify that setting under "dimension" in skeinforge. 
+
 
 Filament density should remain 1.0!  Unless you CHANGE the type of plastic you are extruding. So, say you calibrated your e_steps_per_unit in firmware with ABS filament.... then when you have ABS filament in your packing density needs to be 1.0. The only reason to change density, is if you are using a different plastic (say PLA) then the plastic you used to calibrate with.
 
